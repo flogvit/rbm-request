@@ -10,8 +10,6 @@
 
 var Request = require('../request.js');
 var should = require('should');
-require('assert');
-var _ = require('underscore');
 
 describe('Check request', function () {
     it('should understand basic request', function (done) {
