@@ -1,0 +1,33 @@
+{
+  "name": "rbm-request",
+  "version": "1.0.0",
+  "description": "The request object in RBM",
+  "main": "request.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "underscore": ""
+  },
+  "devDependencies": {
+    "mocha": "",
+    "should": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flogvit/rbm-request.git"
+  },
+  "keywords": [
+    "RBM",
+    "request"
+  ],
+  "author": "Vegard.Hanssen@cellarlabs.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flogvit/rbm-request/issues"
+  },
+  "homepage": "https://github.com/flogvit/rbm-request#readme"
+}
