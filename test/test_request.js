@@ -36,4 +36,12 @@ describe('Check request', function () {
         req.dataCore().should.eql({command: 'test', now: req.dataCore().now, params: {test: 'test2'}});
         done();
     })
+
+    it('should be able to clone itself', function(done) {
+        var req = new Request().withCommand('test').withParam('test', 'test2');
+        var req2 = req.clone();
+        req.withParam('test', 'test3');
+        req2.dataCore().should.eql({command: 'test', now: req.dataCore().now, params: {test: 'test2'}});
+        done();
+    })
 })
